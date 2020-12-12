@@ -1,0 +1,146 @@
+body{
+	background-color: rgb(255,210,119);
+	align-content: center;
+	font-family:verdana;
+	align-items: center;
+}
+h1{
+	font-family: Times new Roman;
+	font-size: 30px;
+	padding :20px;
+}
+
+h2{
+	color: black;
+	font-size: 34px;
+	text-decoration : underline;
+	font-style: italic;
+}
+
+p { text-align: center;
+	text-decoration: none;
+	font-family:helvetica;
+	max-width: 60%
+
+}
+
+
+a {
+	text-decoration: none;
+	color: green;
+}
+
+
+a:hover {
+	text-decoration: underline;
+	font-weight: bold; 
+
+}
+
+
+.cardprincipale {
+	display:inline-block;
+	/*text-align: center;*/ 
+	min-height:800px;
+	max-height:800px;
+	min-width: 800px;
+	max-width:800px;
+	background-color: rgb(150,230,230);
+	border-radius: 60%;
+	vertical-align:top;
+	padding:15px;
+	/*text-decoration: underline;*/
+
+
+
+	
+}
+.cardprincipale:hover {
+	border-style:dotted;
+	border-color : rgb(260,260,260);
+	background-color: rgb(255,17,118);
+}
+
+.imgprincipale{
+	border-radius: 60%;
+	width:400px;
+	min-width:100px;
+	vertical-align:center;
+}
+
+
+.imgsocialnetwork{
+	height: 50px;
+	vertical-align: center;
+	padding: 3% 3%;
+
+}
+
+.imgsocialnetwork:hover {
+	height:75px;
+	border: 3px 
+	solid blue;
+	padding: 2px
+
+
+
+}
+
+.divgauche{
+	display:inline-block;
+	min-width:500px;
+	width: 40%;
+	background-color: rgb(255,210,119);
+}
+
+.cardpetittitre{
+	font-family:arial;
+	/*text-align: center;*/
+ 	background-color: rgb(210,210,210);
+	border-radius: 50px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding :20px;
+	
+
+}
+
+
+.cardpetittitre:hover{
+	border-style:dotted;
+	border-color : rgb(260,260,260);
+}
+
+
+.cardpetittitreCVV{
+	font-family:arial;
+	/*text-align: center;*/
+	color: black;	
+	font-weight:bold;
+	font-size: 34px;
+	text-decoration : underline;
+ 	background-color: rgb(210,210,210);
+	border-radius: 50px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding :10px;
+	
+
+}
+.cardpetittitreCVV:hover{
+	border-style:dotted;
+	border-color : rgb(260,260,260);
+}
+
+
+.monCVV{
+	height:150px;
+}
+
+.monCVV:hover{
+	height:200px;
+	border: 3px
+	solid blue;
+	padding: 3px;
+}
+
